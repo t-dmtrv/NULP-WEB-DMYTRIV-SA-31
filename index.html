@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Melissa Olson</title>
+</head>
+<body>
+    <header>
+        <div id="heading">Inspired photography</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li class="dropdown"><a href="#service" class="trigger-drop">Services<i class="arrow"></i></a>
+                    <ul class="drop">
+                      <li><a href="#">Lifestyle photography</a></li>
+                      <li><a href="#">Fashion photography</a></li>
+                      <li><a href="#">Event photography</a></li>
+                    </ul>
+                  </li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="open bar1"></div>
+            <div class="open bar2"></div>
+            <div class="open bar3"></div>
+            <ul class="open mobile-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+    </header>
+    <main>
+        <section class="melissa">
+            <div class="title">
+                <div class="main-title">Melissa Olson</div>
+                <div class="sub-title">Your best <br> studio photographer</div>
+            </div>    
+            <div class="portrait"><img src="E://WEB_LPNU//photos//melissa.png" alt="" width="550px" ></div>
+        </section>
+        
+        <section id="about" class="about">
+            <div class="topic-about">About Melissa</div>
+            <div>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. </p>
+            </div>
+        </section>
+
+        <section id="works" class="work">
+            <div class="topic-work">Works</div>
+            <div class="photos">
+                <div class="first">
+                    <div><img src="E://WEB_LPNU//photos//pic 11.png" alt=""></div>
+                    <div><img src="E://WEB_LPNU//photos//pic 9.png" alt=""></div>
+                    <div><img src="E://WEB_LPNU//photos//pic 10.png" alt=""></div>
+                    <div><img src="E://WEB_LPNU//photos//pic 3.png" alt=""></div>
+                    <div><img src="E://WEB_LPNU//photos//pic 1.png" alt=""></div>
+                </div>
+                <div class="second">
+                    <div><img src="E://WEB_LPNU//photos//pic 12.png" alt=""></div>
+                    <div><img src="E://WEB_LPNU//photos//pic 7.png" alt=""></div>
+                    <div><img src="E://WEB_LPNU//photos//pic 8.png" alt=""></div>
+                    <div><img src="E://WEB_LPNU//photos//pic 6.png" alt=""></div>
+                </div>
+                <div class="third">
+                    <img src="E://WEB_LPNU//photos//pic 13.png" alt="">
+                    <img src="E://WEB_LPNU//photos//pic 4.png" alt="">
+                    <img src="E://WEB_LPNU//photos//pic 5.png" alt="">
+                    <img src="E://WEB_LPNU//photos//pic 2.png" alt="">
+                </div>
+            </div>
+            <div class="video-box">
+                <video controls>
+                    <source src="E://WEB_LPNU//photos//video-inspire.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section id="service" class="service">
+            <div class="topic-service">Services</div>
+            <div class="boxes">
+                <div class="box">
+                    <h3>Lifestyle photography</h3>
+                    <p>It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old. Richard McClintock, 
+                        a Latin professor at Hampden-Sydney College in Virginia.</p>
+                    <h4>$150 per hour</h4>
+                    <button class="book-service">Book now</button>
+                </div>
+                <div class="box">
+                    <h3>Fashion photography</h3>
+                    <p>It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old. Richard McClintock, 
+                        a Latin professor at Hampden-Sydney College in Virginia.</p>
+                    <h4>$300 per hour</h4>
+                    <button class="book-service">Book now</button>
+                </div>
+                <div class="box">
+                    <h3>Event photography</h3>
+                    <p>It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old. Richard McClintock, 
+                        a Latin professor at Hampden-Sydney College in Virginia.</p>
+                    <h4>$350 per hour</h4>
+                    <button class="book-service">Book now</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="feedback" class="feedback"> 
+            <div class="topic-feedback">Feedback</div>
+            <div class="scroll">
+                <a class="prev" onclick="plusSlides(-1)"><img src="E://WEB_LPNU//photos//left-arrow.png" alt=""></a>
+                <div class="comment">
+                    <div class="mySlides fade">
+                        <p class="text_com">It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia. 
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <img src="E://WEB_LPNU//photos//stars 1.png" alt="" width="80px">
+                        <p>Clara Devile</p>
+                    </div>
+                    <div class="mySlides fade">
+                        <p class="text_com">It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia. 
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <img src="E://WEB_LPNU//photos//stars 1.png" alt="" width="80px">
+                        <p>Devis Rokke</p>
+                    </div>
+                    <div class="mySlides fade">
+                        <p class="text_com">It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia. 
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <img src="E://WEB_LPNU//photos//stars 1.png" alt="" width="80px">
+                        <p>Semen Yard</p>
+                    </div>
+                </div>
+                <a class="next" onclick="plusSlides(1)"><img src="E://WEB_LPNU//photos//right-arrow.png" alt=""></a>
+            </div>
+        </section>
+
+        <section>
+            <div class="gift">
+                <div class="gift-box">
+                    <div class="gift-quote">Give a gift that lasts forever</div>
+                    <button class="gift-button">Tap here</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="contact">
+            <div class="contact">
+                <h2>Contact</h2>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Name" class="txt_field" required><br>
+                    <input type="email" name="" id="" placeholder="E-mail" class="txt_field" required><br>
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Message" required></textarea><br>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+        <div class="fot">
+            <div class="copyright">
+                <p><img src="E://WEB_LPNU//photos//copyright 1.png" alt=""> Melissa Olson Photography </p>
+            </div>
+            <div class="social">
+                <a href=""><img src="E://WEB_LPNU//photos//twitter.png" alt=""></a>
+                <a href=""><img src="E://WEB_LPNU//photos//instagram.png" alt=""></a>
+                <a href=""><img src="E://WEB_LPNU//photos//linkedin.png" alt=""></a>
+                <a href=""><img src="E://WEB_LPNU//photos//pinterest.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
